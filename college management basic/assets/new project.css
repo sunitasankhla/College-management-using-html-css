@@ -1,0 +1,363 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+#index{
+	width: 100%;
+	height: 100vh;
+	background: whitesmoke;
+	position: relative;
+	overflow: hidden;
+	
+}
+#index .header{
+	position: absolute;
+	background: darkblue;
+	width: 100%;
+	height: 80px;
+}
+#index .header .logo{
+	position: absolute;
+	top: 17px;
+	left: 30px;
+}
+#index .header .logo h3{
+	color: blueviolet;
+	text-transform: uppercase;
+	text-shadow: 5px 3px 5px black;
+	/*background: ;*/
+	font-family: cursive;
+	font-size: 25px;
+}
+#index .header .nav ul{
+	position: absolute;
+	left: 80vh;
+	top: 50%;
+	transform: translatey(-50%);
+}
+#index .header .nav ul li{
+	display: inline-flex;
+	margin-left: 15px;
+	font-size: 22px;
+}
+#index .header .nav ul li a{
+	color: white;
+	font-family: sans-serifW;
+	padding: 10px 20px;
+}
+#index .header .nav ul li a:hover{
+	color: red;
+	transform: scale(1.1);
+	transition: 0.9s;
+}
+/*#index .teacher{
+	position: absolute;
+	top: 16%;
+	left: 56%;
+	width: 510px;*/
+
+#index .college{
+	position: absolute;
+	width: 1550px;
+	top: 11vh;
+	
+}
+#index .heads{
+	position: absolute;
+	top: 20%;
+	left: 2%;
+}
+#index .heads h2{
+	color: red;
+	line-height: 70px;
+	font-size: 60px;
+	font-family: cursive;
+	left: 40%;
+}
+#index .heads p{
+	top: 26vh;
+	position: absolute;
+	color: navy;
+	font-size:20px;
+	font-family: cursive;
+	left: %;
+
+
+}
+#index .college .btn{
+	position: absolute;
+	z-index: 1;
+	top: 60vh;
+	left: 14vh;
+	color: pink;
+	font-size: 20px;
+	padding: 10px 20px;
+	background: black;
+	border-radius: 3px;
+	text-decoration: none;
+
+}
+#about{
+	width: 100%;
+	height: 101vh;
+	background: sun.png;
+	background-size: 15vh;
+	overflow: hidden;
+	position: relative;
+
+}
+#about .image-1{
+	position: relative;
+	top: 15vh;
+	left: 130vh;
+	width: 450px;
+	height: 60vh;
+	border: 2px solid cyan;
+	border-radius: 3vh;
+	border-color: 0px 0px 5px cyan;
+}
+/*#about .back-1{
+	position: relative;
+	top: 15vh;
+	left: 80vh;
+	width: 850px;
+	height: 80vh;
+	/*border: 3px solid gray;*/
+	/*border-radius: 2vh;*/
+
+#about h1{
+	position: absolute;
+	top: 1vh;
+	background: darkblue;
+	padding: 1.5vh;
+	margin: 1vh;
+	width: 100%;
+	font-weight: 400;
+	/*left: 10vh;*/
+	color: white;
+	text-align: center;
+	font-family: verdana;
+	text-shadow: 0px 0px 5px cyan;
+}
+
+#about p{
+	position: absolute;
+	top: 40vh;
+	left: 5vh;
+	font-family: justify;
+	line-height: 25px;
+	text-align: justify;
+	}
+#about .btn{
+	position: absolute;
+	z-index: 1;
+	top: 60vh;
+	left: 14vh;
+	color: white;
+	font-size: 20px;
+	padding: 10px 20px;
+	background: black;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+
+
+#gallery{
+	width: 100%;
+	height: 90vh;
+	background: floralwhite;
+	position: relative;
+	padding-top: 10vh;
+		
+}
+#gallery .G-box{
+	display: block;
+	margin-left: 12px;
+	float: left;
+	width: 20%;
+}
+#gallery img{
+	margin-left: 55px;
+	width: 280px;
+	position: relative;
+	top: 15px;
+	height: 175px;
+	border: 2px solid darkcyan;
+	box-shadow: 5px 3px 15px black;
+	border-radius: 9px;
+
+}
+#gallery h1{
+	position: absolute;
+	text-align: center;
+	top: 1vh;
+	font-family: sans-serif;
+	color: white;
+	font-size: 40px;
+	text-shadow: 0 0 6px blue;
+	margin: 1px;
+    padding: 1%;
+    width: 100%;
+    background: darkblue;
+    font-weight: 400;
+
+}
+#courses{
+	width: 100%;
+	height: 100vh;
+	background: white;
+    margin: 1% 1%;
+    text-align: justify;
+}
+
+#courses h1
+{
+font-size: 40px;
+text-align: center;
+margin: 0px;
+padding: 1.5%;
+background: darkblue;
+color: #FFFFFF;
+font-weight: 400;
+font-family: sans-serif;
+}
+
+#placement{
+	width: 100%;
+	height: 102vh;
+	background: floralwhite;
+	position: relative;
+}
+#placement h1{
+	background: darkblue;
+	top: 1vh;
+	font-family: sans-serif;
+	padding: 1.5%;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 400;
+}
+#placement .use p{
+	color: black;
+	top: 15vh;
+	left: 20px;
+	position: absolute;
+
+	font-family: sans-serif;
+	font-size: 20;
+	text-align: left;
+
+}
+#placement .place{
+    position: relative;
+	top: 3vh;
+	left: 120vh;
+	width: 550px;
+	height: 60vh;
+	border: 2px solid cyan;
+	border-radius: 3vh;
+	border-color: 0px 0px 5px cyan;
+}
+#contact{
+	width: 100%;
+	height: 100vh;
+	background: lightblue;
+	position: relative;
+}
+#contact  p{
+	font-family: sans-serif;
+	font-size: 40px;
+	left: 70px;
+	top: 70vh;
+	line-height: 20px;
+	position: absolute;
+	color: darkblue;
+}
+
+#contact h1{
+	background: darkblue;
+	color: white;
+	width: 100%;
+	height: 60px;
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	margin: 0px;
+    padding: 1%;
+	
+	position: absolute;
+	overflow: hidden;
+}
+.container{
+	position: absolute;
+	top: 11vh;
+	left: 5vh;
+	right: 30vh;
+	width: 70%;
+}
+.container-box{
+	background: whitesmoke;
+	display: flex;
+	margin-top: 3vh;
+}
+.contact-left{
+	flex-basis: 60%;
+	padding: 40px 60px;
+}
+.contact-right{
+	flex-basis: 40%;
+}
+.input-row{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.input-row .input-group{
+	flex-basis: 45%;
+}
+input{
+	width: 100%;
+	border: none;
+	border-right: 1px solid #ccc;
+
+	border-bottom: 1px solid #ccc;
+	outline: black;
+	padding-bottom: 5px;
+}
+text area{
+	width: 100%;
+	border: 1px solid black;
+	outline: none;
+	position: 10px;
+	box-sizing: border-box;
+	}
+label{
+	margin-bottom: 6px;
+	display: block;
+	color: darkcyan;
+	
+}	
+button{
+	background: darkcyan;
+	width: 78px;
+	height: 35px;
+	border: none;
+	outline: none;
+	color: whitesmoke;
+	border-radius: 30px;
+	justify-content: space-between;
+	margin: 10px;
+}
+.contact-left{
+	font-family: sans-serif;
+	color: darkcyan;
+	font-weight: 600;
+	margin-bottom: 25px;
+
+}
+
